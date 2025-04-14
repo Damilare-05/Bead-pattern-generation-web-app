@@ -6,7 +6,7 @@ import streamlit as st  # Import the Streamlit library, which is used for buildi
 
 # Define the "home" page with its respective settings.
 about_page = st.Page(
-    page=r"pages\Home.py",
+    page=r"C:\Users\Omolayo-Akinola\Documents\Neural networks\learning\stream\learn\pages\Home.py",
     title="home",
     icon="👤",
     default=True,  # This page is set as the default page when the application is launched.
@@ -14,7 +14,7 @@ about_page = st.Page(
 
 # Define the first project page for bead pattern generation.
 project_page = st.Page(
-    page=r"pages\BeadPatternGeneraton.py",
+    page=r"C:\Users\Omolayo-Akinola\Documents\Neural networks\learning\stream\learn\pages\BeadPatternGeneraton.py",
     title="bead pattern generation",
     icon="📿",
     default=False,  # This page is not the default landing page.

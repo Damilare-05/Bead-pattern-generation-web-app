@@ -131,7 +131,7 @@ def sign_up():
                     st.session_state["PASSWORD"] = create_password
                     st.success("Account Created")
                     # Switch page after successful sign-up.
-                    st.switch_page(r"pages/BeadPatternGeneraton.py")
+                    st.switch_page(r"C:\Users\Omolayo-Akinola\Documents\Neural networks\learning\stream\learn\pages\BeadPatternGeneraton.py")
             else:
                 st.error("Passwords do not match.")
         else:
