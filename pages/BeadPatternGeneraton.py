@@ -321,7 +321,7 @@ init_saved_images_table()
 
 # ------------------------ STREAMLIT APP ------------------------
 # Link to the home page (adjust label and link as needed)
-st.page_link(r"C:\Users\Omolayo-Akinola\Documents\Neural networks\learning\stream\learn\pages\Home.py", label="🏠 HOME")
+st.page_link(r"pages\Home.py", label="🏠 HOME")
 tab1, tab2 = st.tabs(["Bead Pattern Generation", "History"])
 
 # Directory to save patterns

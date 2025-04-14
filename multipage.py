@@ -25,7 +25,7 @@ project_page = st.Page(
 # ----------Logo (Shared on all pages)----------
 # Set a shared logo across all pages using an image located at the given path.
 st.logo(
-    r"C:\Users\Omolayo-Akinola\Downloads\ChatGPT Image Apr 11, 2025, 03_18_52 AM.png",
+    r"logo\ChatGPT Image Apr 11, 2025, 03_18_52 AM.png",
     size="large",  # The logo is rendered with a large size specification.
 )
 
